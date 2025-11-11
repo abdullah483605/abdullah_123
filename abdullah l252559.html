@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="style.css">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GreenLeaf | Sustainable Living</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <!-- Simple custom SVG logo -->
+      <svg width="32" height="32" viewBox="0 0 24 24" fill="white">
+        <path d="M12 2C8 5 5 9 5 14a7 7 0 0 0 14 0c0-5-3-9-7-12z"/>
+      </svg>
+      <h1>GreenLeaf</h1>
+    </div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#about">About</a>
+      <a href="#form">Join</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="intro">
+      <h2>Grow a Greener Future</h2>
+      <p>At GreenLeaf, we inspire eco-friendly living through sustainable ideas and community action.</p>
+      <button class="btn">Learn More</button>
+    </section>
+
+    <section id="about" class="grid-info">
+      <article>
+        <h3>Our Mission</h3>
+        <p>We aim to reduce waste, promote recycling, and make sustainability easy for everyone.</p>
+      </article>
+      <article>
+        <h3>Our Projects</h3>
+        <p>From urban gardens to clean energy drives, we take steps that make real change.</p>
+      </article>
+      <article>
+        <h3>Our Vision</h3>
+        <p>To build a cleaner, greener planet through education and collaboration.</p>
+      </article>
+    </section>
+
+    <section id="form" class="form-section">
+      <h2>Join Our Community</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required aria-label="Name">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required aria-label="Email">
+
+        <p><strong>Interests:</strong></p>
+        <label><input type="checkbox" name="interest"> Gardening</label>
+        <label><input type="checkbox" name="interest"> Recycling</label>
+        <label><input type="checkbox" name="interest"> Solar Energy</label>
+
+        <p><strong>Membership Type:</strong></p>
+        <label><input type="radio" name="role"> Volunteer</label>
+        <label><input type="radio" name="role"> Partner</label>
+
+        <label for="plan">Subscription Plan:</label>
+        <select id="plan" name="plan">
+          <option>Free</option>
+          <option>Monthly</option>
+          <option>Yearly</option>
+        </select>
+
+        <label for="message">Message:</label>
+        <textarea id="message" rows="3" aria-label="Message"></textarea>
+
+        <button type="submit" class="btn">Submit</button>
+      </form>
+    </section>
+
+    <section id="contact" class="cta">
+      <h2>Stay Connected</h2>
+      <p>Follow us for tips, updates, and green challenges every week!</p>
+      <button class="btn-outline">Subscribe</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 GreenLeaf | Designed for HTML+CSS Assignment</p>
+  </footer>
+</body>
+</html>
